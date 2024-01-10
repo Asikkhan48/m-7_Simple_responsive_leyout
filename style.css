@@ -1,0 +1,31 @@
+.container {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    border: 2px solid black;
+}
+
+.box {
+    border: 2px solid yellow;
+    height: 100px;
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
